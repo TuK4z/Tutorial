@@ -1,21 +1,19 @@
-[15:28:57] alt:V Server 10.10 (release)
-[15:28:57] Starting Tutorial on 127.0.0.1:7788
-[15:28:57] Loading resource chat
-[15:28:58] Loaded resource chat
-[15:28:58] Loading resource tutorial
-[15:29:02] Loaded resource tutorial
-[15:29:02] Required server permissions:
-[15:29:02] Optional server permissions:
-[15:29:02] Starting HTTP server on 127.0.0.1:7788
-[15:29:02] Main thread started (ThreadId: 32336)
-[15:29:02] Colshape thread started (ThreadId: 2772)
-[15:29:02] EntityStreamer thread started (ThreadId: 12008)
-[15:29:02] Network thread started (ThreadId: 13968)
-[15:29:02] Sync thread started (ThreadId: 15568)
-[15:29:02] Console thread started (ThreadId: 25188)
-[15:29:02][Warning] Server started in debug mode
-[15:29:41] [chat:cmd] Tuk1s: /objektas apa_mp_h_str_avunitm_01
-[15:38:27] [chat:cmd] Tuk1s: /q
-[15:39:08] Stopping resource chat
-[15:39:08] Stopped resource chat
-[15:39:08] Stopping resource tutorial
+[14:18:13] alt:V Server 12.10 (release)
+[14:18:13] Starting Tutorial on 127.0.0.1:7788
+[14:18:14] Loading resource chat
+[14:18:14] Loaded resource chat
+[14:18:14] Loading resource tutorial
+[14:18:18] Loaded resource tutorial
+[14:18:18] Required server permissions:
+[14:18:18] Optional server permissions:
+[14:18:18] Starting HTTP server on 127.0.0.1:7788
+[14:18:18] Main thread started (ThreadId: 25028)
+[14:18:18] Colshape thread started (ThreadId: 4304)
+[14:18:18] Sync thread started (ThreadId: 32588)
+[14:18:18] EntityStreamer thread started (ThreadId: 22864)
+[14:18:18] Network thread started (ThreadId: 28664)
+[14:18:18] Console thread started (ThreadId: 18140)
+[14:18:18][Warning] Server started in debug mode
+[14:22:15] Stopping resource chat
+[14:22:15] Stopped resource chat
+[14:22:15] Stopping resource tutorial

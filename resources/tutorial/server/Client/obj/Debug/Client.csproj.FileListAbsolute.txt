@@ -1,0 +1,13 @@
+C:\Users\Tuk1s\Desktop\Egamesy\Tutorial\resources\tutorial\client\Debug\Client.deps.json
+C:\Users\Tuk1s\Desktop\Egamesy\Tutorial\resources\tutorial\client\Debug\Client.dll
+C:\Users\Tuk1s\Desktop\Egamesy\Tutorial\resources\tutorial\client\Debug\Client.pdb
+C:\Users\Tuk1s\Desktop\Egamesy\Tutorial\resources\tutorial\server\Client\obj\Debug\Client.csproj.AssemblyReference.cache
+C:\Users\Tuk1s\Desktop\Egamesy\Tutorial\resources\tutorial\server\Client\obj\Debug\Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tuk1s\Desktop\Egamesy\Tutorial\resources\tutorial\server\Client\obj\Debug\Client.AssemblyInfoInputs.cache
+C:\Users\Tuk1s\Desktop\Egamesy\Tutorial\resources\tutorial\server\Client\obj\Debug\Client.AssemblyInfo.cs
+C:\Users\Tuk1s\Desktop\Egamesy\Tutorial\resources\tutorial\server\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\Users\Tuk1s\Desktop\Egamesy\Tutorial\resources\tutorial\server\Client\obj\Debug\Client.csproj.CopyComplete
+C:\Users\Tuk1s\Desktop\Egamesy\Tutorial\resources\tutorial\server\Client\obj\Debug\Client.dll
+C:\Users\Tuk1s\Desktop\Egamesy\Tutorial\resources\tutorial\server\Client\obj\Debug\refint\Client.dll
+C:\Users\Tuk1s\Desktop\Egamesy\Tutorial\resources\tutorial\server\Client\obj\Debug\Client.pdb
+C:\Users\Tuk1s\Desktop\Egamesy\Tutorial\resources\tutorial\server\Client\obj\Debug\ref\Client.dll

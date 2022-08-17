@@ -9,8 +9,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AltV.Net" Version="10.0.13" />
-    <PackageReference Include="AltV.Net.Resources.Chat.Api" Version="10.0.13" />
+    <PackageReference Include="AltV.Net" Version="12.0.1" />
+    <PackageReference Include="AltV.Net.Resources.Chat.Api" Version="12.0.1" />
   </ItemGroup>
 
 </Project>

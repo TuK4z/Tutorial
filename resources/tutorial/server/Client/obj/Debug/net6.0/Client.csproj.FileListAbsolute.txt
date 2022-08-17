@@ -1,0 +1,12 @@
+C:\Users\Tuk1s\Desktop\Egamesy\Tutorial\resources\tutorial\server\Client\bin\Debug\net6.0\Client.deps.json
+C:\Users\Tuk1s\Desktop\Egamesy\Tutorial\resources\tutorial\server\Client\bin\Debug\net6.0\Client.dll
+C:\Users\Tuk1s\Desktop\Egamesy\Tutorial\resources\tutorial\server\Client\bin\Debug\net6.0\Client.pdb
+C:\Users\Tuk1s\Desktop\Egamesy\Tutorial\resources\tutorial\server\Client\obj\Debug\net6.0\Client.csproj.AssemblyReference.cache
+C:\Users\Tuk1s\Desktop\Egamesy\Tutorial\resources\tutorial\server\Client\obj\Debug\net6.0\Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tuk1s\Desktop\Egamesy\Tutorial\resources\tutorial\server\Client\obj\Debug\net6.0\Client.AssemblyInfoInputs.cache
+C:\Users\Tuk1s\Desktop\Egamesy\Tutorial\resources\tutorial\server\Client\obj\Debug\net6.0\Client.AssemblyInfo.cs
+C:\Users\Tuk1s\Desktop\Egamesy\Tutorial\resources\tutorial\server\Client\obj\Debug\net6.0\Client.csproj.CoreCompileInputs.cache
+C:\Users\Tuk1s\Desktop\Egamesy\Tutorial\resources\tutorial\server\Client\obj\Debug\net6.0\Client.dll
+C:\Users\Tuk1s\Desktop\Egamesy\Tutorial\resources\tutorial\server\Client\obj\Debug\net6.0\refint\Client.dll
+C:\Users\Tuk1s\Desktop\Egamesy\Tutorial\resources\tutorial\server\Client\obj\Debug\net6.0\Client.pdb
+C:\Users\Tuk1s\Desktop\Egamesy\Tutorial\resources\tutorial\server\Client\obj\Debug\net6.0\ref\Client.dll
