@@ -45,5 +45,11 @@ namespace Tutorial
         {
             Alt.EmitAllClients("Event:Objektas", pav);
         }
+
+        [Command("web")]
+        public void web(IPlayer player)
+        {
+            player.Emit("Web:Create");
+        }
     }
 }

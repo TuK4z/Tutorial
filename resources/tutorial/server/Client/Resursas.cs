@@ -1,5 +1,6 @@
 ﻿using System;
 using AltV.Net.Client;
+using Client;
 
 namespace ExampleProject
 {
@@ -8,6 +9,8 @@ namespace ExampleProject
         public override void OnStart()
         {
             Console.WriteLine("Client Started");
+
+            Alt.OnServer("Web:Create", Web.CreateWebView);
         }
 
         public override void OnStop()
