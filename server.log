@@ -1,20 +1,23 @@
-[19:04:26] alt:V Server 12.10 (release)
-[19:04:26] Starting Tutorial on 127.0.0.1:7788
-[19:04:26] Loading resource chat
-[19:04:26] Loaded resource chat
-[19:04:26] Loading resource tutorial
-[19:04:30] Loaded resource tutorial
-[19:04:30] Required server permissions:
-[19:04:30] Optional server permissions:
-[19:04:30] Starting HTTP server on 127.0.0.1:7788
-[19:04:30] Main thread started (ThreadId: 28944)
-[19:04:30] Colshape thread started (ThreadId: 26580)
-[19:04:30] EntityStreamer thread started (ThreadId: 10840)
-[19:04:30] Sync thread started (ThreadId: 17660)
-[19:04:30] Network thread started (ThreadId: 8612)
-[19:04:30] Console thread started (ThreadId: 29520)
-[19:04:30][Warning] Server started in debug mode
-[19:04:37] [chat:cmd] Tuk1s: /web
-[19:05:22] Stopping resource chat
-[19:05:22] Stopped resource chat
-[19:05:22] Stopping resource tutorial
+[15:06:58] alt:V Server 12.22 (release)
+[15:06:58] Starting Tutorial on 127.0.0.1:7788
+[15:06:58] Loading resource chat
+[15:06:58] Loaded resource chat
+[15:06:58] Loading resource tutorial
+[15:07:00] Loaded resource tutorial
+[15:07:00] Loading resource m5e34
+[15:07:00] Loaded resource m5e34
+[15:07:00] Loading resource baznycia
+[15:07:00] Loaded resource baznycia
+[15:07:00] Required server permissions:
+[15:07:00] Optional server permissions:
+[15:07:00] Starting HTTP server on 127.0.0.1:7788
+[15:07:00] Main thread started (ThreadId: 24100)
+[15:07:00] Colshape thread started (ThreadId: 4416)
+[15:07:00] EntityStreamer thread started (ThreadId: 23388)
+[15:07:00] Sync thread started (ThreadId: 17588)
+[15:07:00] Console thread started (ThreadId: 10204)
+[15:07:00] Network thread started (ThreadId: 15496)
+[15:07:00][Warning] Server started in debug mode
+[15:07:06] Stopping resource chat
+[15:07:06] Stopped resource chat
+[15:07:06] Stopping resource tutorial
