@@ -11,20 +11,20 @@ namespace Tutorial
     internal class Commands : IScript
     {
         [Command("oras")]
-        public void setOras(IPlayer player, int oras)
+        public static void setOras(IPlayer player, int oras)
         {
             player.SetWeather((uint)oras);
             player.SendChatMessage("Oras pakeistas");
         }
 
         [Command("veh")]
-        public void creatVeh(IPlayer player, string vehName)
+        public static void creatVeh(IPlayer player, string vehName)
         {
             IVehicle vehicle = Alt.CreateVehicle(vehName, new Position(0, 0, 0), new Rotation(0, 0, 0));
         }
 
         [Command("pos")]
-        public void findPos(IPlayer player)
+        public static void findPos(IPlayer player)
         {
             float x = player.Position.X;
             float y = player.Position.Y;
@@ -35,19 +35,19 @@ namespace Tutorial
         }
 
         [Command("ginklas")]
-        public void giveWeapon(IPlayer player)
+        public static void giveWeapon(IPlayer player)
         {
-            player.GiveWeapon((uint)0x7F7497E5, 10, false);
+            player.GiveWeapon(0x7F7497E5, 10, false);
         }
 
         [Command("objektas")]
-        public void Object(IPlayer player, string pav)
+        public static void Object(IPlayer player, string pav)
         {
             Alt.EmitAllClients("Event:Objektas", pav);
         }
 
         [Command("web")]
-        public void web(IPlayer player)
+        public static void web(IPlayer player)
         {
             player.Emit("Web:Create");
         }
