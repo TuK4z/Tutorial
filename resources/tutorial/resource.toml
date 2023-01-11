@@ -1,0 +1,5 @@
+client-files = [ 'client/*' ]
+client-main = 'client/Debug/Client.dll'
+deps = []
+main = 'server/Tutorial/bin/Debug/Tutorial.dll'
+type = 'csharp'

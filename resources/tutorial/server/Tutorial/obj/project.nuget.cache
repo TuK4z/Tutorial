@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "gYPG+VBEV7qRdJc+WWbecEfIBhFOhNYcV8HK0hUbwk+3BepyU2vZVEacp4X44CwEuPPyvJ34m0PxYMGi/bLqUA==",
+  "dgSpecHash": "/mn+uA4nLy4fFPHGMgkTxGEDkfX7E46QZRAZhuVnzjvT9JTaaZA68FdAhYHfHZFnowiC1mnYpmGeXJm21FVxLQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Tuk1s\\Desktop\\Egamesy\\Tutorial\\resources\\tutorial\\server\\Tutorial\\Tutorial.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Tuk1s\\.nuget\\packages\\altv.net\\13.0.6\\altv.net.13.0.6.nupkg.sha512",
-    "C:\\Users\\Tuk1s\\.nuget\\packages\\altv.net.capi\\13.0.6\\altv.net.capi.13.0.6.nupkg.sha512",
-    "C:\\Users\\Tuk1s\\.nuget\\packages\\altv.net.resources.chat.api\\13.0.6\\altv.net.resources.chat.api.13.0.6.nupkg.sha512",
-    "C:\\Users\\Tuk1s\\.nuget\\packages\\altv.net.shared\\13.0.6\\altv.net.shared.13.0.6.nupkg.sha512"
+    "C:\\Users\\Tuk1s\\.nuget\\packages\\altv.net\\13.0.15\\altv.net.13.0.15.nupkg.sha512",
+    "C:\\Users\\Tuk1s\\.nuget\\packages\\altv.net.capi\\13.0.15\\altv.net.capi.13.0.15.nupkg.sha512",
+    "C:\\Users\\Tuk1s\\.nuget\\packages\\altv.net.resources.chat.api\\13.0.15\\altv.net.resources.chat.api.13.0.15.nupkg.sha512",
+    "C:\\Users\\Tuk1s\\.nuget\\packages\\altv.net.shared\\13.0.15\\altv.net.shared.13.0.15.nupkg.sha512"
   ],
   "logs": []
 }

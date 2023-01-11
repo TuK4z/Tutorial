@@ -1,28 +1,23 @@
-[21:25:43][Warning] Using .cfg files is discouraged, consider using the '--convert-config-format' commandline argument
-[21:25:43] alt:V Server 13.5 (release)
-[21:25:43] Starting Tutorial on 127.0.0.1:7788
-[21:25:43] Loading resource chat
-[21:25:43][Warning] Using .cfg files is discouraged, consider using the '--convert-config-format' commandline argument
-[21:25:43] Loaded resource chat
-[21:25:43] Loading resource tutorial
-[21:25:43][Warning] Using .cfg files is discouraged, consider using the '--convert-config-format' commandline argument
-[21:25:51] Loaded resource tutorial
-[21:25:51] Loading resource m5e34
-[21:25:51][Warning] Using .cfg files is discouraged, consider using the '--convert-config-format' commandline argument
-[21:25:51] Loaded resource m5e34
-[21:25:51] Loading resource baznycia
-[21:25:51][Warning] Using .cfg files is discouraged, consider using the '--convert-config-format' commandline argument
-[21:25:51] Loaded resource baznycia
-[21:25:51] Required server permissions:
-[21:25:51] Optional server permissions:
-[21:25:51] Starting HTTP server on 127.0.0.1:7788
-[21:25:51] Main thread started (ThreadId: 16276)
-[21:25:51] Colshape thread started (ThreadId: 23696)
-[21:25:51] Console thread started (ThreadId: 24712)
-[21:25:51] Sync thread started (ThreadId: 14660)
-[21:25:51] Network thread started (ThreadId: 23504)
-[21:25:51] EntityStreamer thread started (ThreadId: 25144)
-[21:25:51][Warning] Server started in debug mode
-[21:25:54] Stopping resource chat
-[21:25:54] Stopped resource chat
-[21:25:54] Stopping resource tutorial
+[16:14:20] alt:V Server 13.38 (release)
+[16:14:20] Starting Tutorial on 127.0.0.1:7788
+[16:14:20] Loading resource chat
+[16:14:20] Loaded resource chat
+[16:14:20] Loading resource tutorial
+[16:14:24] Loaded resource tutorial
+[16:14:24] Loading resource m5e34
+[16:14:24] Loaded resource m5e34
+[16:14:24] Loading resource baznycia
+[16:14:24] Loaded resource baznycia
+[16:14:24] Required server permissions:
+[16:14:24] Optional server permissions:
+[16:14:24] Starting HTTP server on 127.0.0.1:7788
+[16:14:24] Main thread started (ThreadId: 23616)
+[16:14:24] Colshape thread started (ThreadId: 21268)
+[16:14:24] EntityStreamer thread started (ThreadId: 26516)
+[16:14:24] Sync thread started (ThreadId: 30644)
+[16:14:24] Network thread started (ThreadId: 22692)
+[16:14:24] Console thread started (ThreadId: 6868)
+[16:14:24][Warning] Server started in debug mode
+[16:14:26] Stopping resource chat
+[16:14:26] Stopped resource chat
+[16:14:26] Stopping resource tutorial
