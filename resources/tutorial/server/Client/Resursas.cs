@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Numerics;
 using AltV.Net.Client;
+using AltV.Net.Client.Elements.Data;
 using Client;
 
 namespace ExampleProject
@@ -11,11 +13,21 @@ namespace ExampleProject
             Console.WriteLine("Client Started");
 
             Alt.OnServer("Web:Create", Web.CreateWebView);
+
+            Alt.OnKeyUp += (key) =>
+            {
+                KeyUpEvent(key);
+            };
         }
 
         public override void OnStop()
         {
             Console.WriteLine("Client Stopped");
+        }
+
+        public static void KeyUpEvent(Key key)
+        {
+            // Key events
         }
     }
 }
