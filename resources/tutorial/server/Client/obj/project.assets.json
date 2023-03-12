@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "AltV.Net.CApi/13.0.15": {
+      "AltV.Net.CApi/13.0.19": {
         "type": "package",
         "compile": {
           "lib/net6.0/AltV.Net.CApi.dll": {}
@@ -11,11 +11,11 @@
           "lib/net6.0/AltV.Net.CApi.dll": {}
         }
       },
-      "AltV.Net.Client/13.0.15": {
+      "AltV.Net.Client/13.0.19": {
         "type": "package",
         "dependencies": {
-          "AltV.Net.CApi": "13.0.15",
-          "AltV.Net.Shared": "13.0.15"
+          "AltV.Net.CApi": "13.0.19",
+          "AltV.Net.Shared": "13.0.19"
         },
         "compile": {
           "lib/net6.0/AltV.Net.Client.dll": {}
@@ -24,10 +24,10 @@
           "lib/net6.0/AltV.Net.Client.dll": {}
         }
       },
-      "AltV.Net.Shared/13.0.15": {
+      "AltV.Net.Shared/13.0.19": {
         "type": "package",
         "dependencies": {
-          "AltV.Net.CApi": "13.0.15"
+          "AltV.Net.CApi": "13.0.19"
         },
         "compile": {
           "lib/net6.0/AltV.Net.Shared.dll": {}
@@ -39,42 +39,42 @@
     }
   },
   "libraries": {
-    "AltV.Net.CApi/13.0.15": {
-      "sha512": "vu7RxrVXbb8Oaz1YozXwSRaohG6YRm8TQh2HZSRNbGUWzbA2gdJSHWMumZ7cW3+gqVwHcAyUT05W9oKK65Jygg==",
+    "AltV.Net.CApi/13.0.19": {
+      "sha512": "zt95CrjlA3WuX2+YB+77P7UVQBb3FtE+Vs3q+pvdVM40L9CzOzRPWZon9xV5J6yCQ83Yp2zTGB8I6SHAFrAfqg==",
       "type": "package",
-      "path": "altv.net.capi/13.0.15",
+      "path": "altv.net.capi/13.0.19",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "altv.net.capi.13.0.15.nupkg.sha512",
+        "altv.net.capi.13.0.19.nupkg.sha512",
         "altv.net.capi.nuspec",
         "icon.png",
         "lib/net6.0/AltV.Net.CApi.dll",
         "license.txt"
       ]
     },
-    "AltV.Net.Client/13.0.15": {
-      "sha512": "xlK2rIwWsM/DxLjvpmDTxlsNfZvs2ic4XsGD9wfp54npK5L5VE9cN20sGSm8i/c035u/0j/ByIpQWzyCapz3Ag==",
+    "AltV.Net.Client/13.0.19": {
+      "sha512": "d1AsJKzP2BjjOlaix+dN0DUH/ONK4/3bD/fZw7+bJwMKRDl8IQpzLaLzlat+1sBE499BWRAUsr6WJIiKPbClqA==",
       "type": "package",
-      "path": "altv.net.client/13.0.15",
+      "path": "altv.net.client/13.0.19",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "altv.net.client.13.0.15.nupkg.sha512",
+        "altv.net.client.13.0.19.nupkg.sha512",
         "altv.net.client.nuspec",
         "icon.png",
         "lib/net6.0/AltV.Net.Client.dll",
         "license.txt"
       ]
     },
-    "AltV.Net.Shared/13.0.15": {
-      "sha512": "0MeVhK0HukWLjJh3QqzU7T7qEsEEo6LS7an9Da4v9/SJtSPeNVIxmEKsjQBQszWZ2RBRUERkcLjSJqPwJlRdFg==",
+    "AltV.Net.Shared/13.0.19": {
+      "sha512": "H3iXroTvmPvO23CwLjH9C7eqTzQM/TJCgQ1O8bkyEWJLbio6mik/d44ZxXxIx6W8AY8CbuzY9JmujrHFAY9b0w==",
       "type": "package",
-      "path": "altv.net.shared/13.0.15",
+      "path": "altv.net.shared/13.0.19",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "altv.net.shared.13.0.15.nupkg.sha512",
+        "altv.net.shared.13.0.19.nupkg.sha512",
         "altv.net.shared.nuspec",
         "icon.png",
         "lib/net6.0/AltV.Net.Shared.dll",
@@ -84,23 +84,28 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "AltV.Net.Client >= 13.0.15"
+      "AltV.Net.Client >= 13.0.19"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Tuk1s\\.nuget\\packages\\": {}
+    "C:\\Users\\valen\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tuk1s\\Desktop\\Egamesy\\Tutorial\\resources\\tutorial\\server\\Client\\Client.csproj",
+      "projectUniqueName": "C:\\Egamesy\\Tutorial\\resources\\tutorial\\server\\Client\\Client.csproj",
       "projectName": "Client",
-      "projectPath": "C:\\Users\\Tuk1s\\Desktop\\Egamesy\\Tutorial\\resources\\tutorial\\server\\Client\\Client.csproj",
-      "packagesPath": "C:\\Users\\Tuk1s\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tuk1s\\Desktop\\Egamesy\\Tutorial\\resources\\tutorial\\server\\Client\\obj\\",
+      "projectPath": "C:\\Egamesy\\Tutorial\\resources\\tutorial\\server\\Client\\Client.csproj",
+      "packagesPath": "C:\\Users\\valen\\.nuget\\packages\\",
+      "outputPath": "C:\\Egamesy\\Tutorial\\resources\\tutorial\\server\\Client\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Tuk1s\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\valen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -128,7 +133,7 @@
         "dependencies": {
           "AltV.Net.Client": {
             "target": "Package",
-            "version": "[13.0.15, )"
+            "version": "[13.0.19, )"
           }
         },
         "imports": [
@@ -147,7 +152,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

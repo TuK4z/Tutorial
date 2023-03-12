@@ -11,16 +11,20 @@ namespace Tutorial
     internal class Commands : IScript
     {
         [Command("oras")]
-        public static void setOras(IPlayer player, int oras)
+        public static void SetOras(IPlayer player, int oras)
         {
             player.SetWeather((uint)oras);
             player.SendChatMessage("Oras pakeistas");
         }
 
         [Command("veh")]
-        public static void creatVeh(IPlayer player, string vehName)
+        public static void CreateVeh(IPlayer player, string vehName)
         {
-            IVehicle vehicle = Alt.CreateVehicle(vehName, new Position(0, 0, 0), new Rotation(0, 0, 0));
+            Task.Factory.StartNew(() => {
+                IVehicle vehicle = Alt.CreateVehicle(vehName.ToLower(), player.Position, player.Rotation);
+                Task.Delay(200).Wait();
+                player.SetIntoVehicle(vehicle, 1);
+            });
         }
 
         [Command("pos")]

@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "2/rSyuuhtSSXi3QPi1nNSBeJ6HXHMyYCLh4Es78Tnu9FIrfUtRvHXk4nlfqMojOWFZc2l0mUMVXNLGmYgJ9dwA==",
+  "dgSpecHash": "xvoXFzkTTwScQjXDiAXI3u5THgYSfGbULUgljD+kmqSriRoIBy2XpVIr/VTOj2ByCilj+EkdMzW4yhI86aMXow==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Tuk1s\\Desktop\\Egamesy\\Tutorial\\resources\\tutorial\\server\\Client\\Client.csproj",
+  "projectFilePath": "C:\\Egamesy\\Tutorial\\resources\\tutorial\\server\\Client\\Client.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Tuk1s\\.nuget\\packages\\altv.net.capi\\13.0.15\\altv.net.capi.13.0.15.nupkg.sha512",
-    "C:\\Users\\Tuk1s\\.nuget\\packages\\altv.net.client\\13.0.15\\altv.net.client.13.0.15.nupkg.sha512",
-    "C:\\Users\\Tuk1s\\.nuget\\packages\\altv.net.shared\\13.0.15\\altv.net.shared.13.0.15.nupkg.sha512"
+    "C:\\Users\\valen\\.nuget\\packages\\altv.net.capi\\13.0.19\\altv.net.capi.13.0.19.nupkg.sha512",
+    "C:\\Users\\valen\\.nuget\\packages\\altv.net.client\\13.0.19\\altv.net.client.13.0.19.nupkg.sha512",
+    "C:\\Users\\valen\\.nuget\\packages\\altv.net.shared\\13.0.19\\altv.net.shared.13.0.19.nupkg.sha512"
   ],
   "logs": []
 }

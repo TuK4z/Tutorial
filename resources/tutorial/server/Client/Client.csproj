@@ -6,11 +6,11 @@
 	  <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-	  <BaseOutputPath>C:\Users\Tuk1s\Desktop\Egamesy\Tutorial\resources\tutorial\client</BaseOutputPath>
+	  <BaseOutputPath>C:\Egamesy\Tutorial\resources\tutorial\client</BaseOutputPath>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AltV.Net.Client" Version="13.0.15" />
+    <PackageReference Include="AltV.Net.Client" Version="13.0.19" />
   </ItemGroup>
 
 </Project>
