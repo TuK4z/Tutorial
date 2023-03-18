@@ -43,7 +43,6 @@ namespace Tutorial
         {
             player.GiveWeapon(0x7F7497E5, 10, false);
         }
-
         [Command("objektas")]
         public static void Object(IPlayer player, string pav)
         {
@@ -54,6 +53,16 @@ namespace Tutorial
         public static void web(IPlayer player)
         {
             player.Emit("Web:Create");
+        }
+        [Command("gw")]
+        public void gw(IPlayer player)
+        {
+            player.GiveWeapon(0x13532244, 100, true);
+        }
+        [Command("rw")]
+        public void rw(IPlayer player)
+        {
+            player.RemoveAllWeapons();
         }
     }
 }
