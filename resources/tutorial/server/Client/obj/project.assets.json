@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "AltV.Net.CApi/13.0.19": {
+      "AltV.Net.CApi/14.0.1": {
         "type": "package",
         "compile": {
           "lib/net6.0/AltV.Net.CApi.dll": {}
@@ -11,11 +11,11 @@
           "lib/net6.0/AltV.Net.CApi.dll": {}
         }
       },
-      "AltV.Net.Client/13.0.19": {
+      "AltV.Net.Client/14.0.1": {
         "type": "package",
         "dependencies": {
-          "AltV.Net.CApi": "13.0.19",
-          "AltV.Net.Shared": "13.0.19"
+          "AltV.Net.CApi": "14.0.1",
+          "AltV.Net.Shared": "14.0.1"
         },
         "compile": {
           "lib/net6.0/AltV.Net.Client.dll": {}
@@ -24,10 +24,10 @@
           "lib/net6.0/AltV.Net.Client.dll": {}
         }
       },
-      "AltV.Net.Shared/13.0.19": {
+      "AltV.Net.Shared/14.0.1": {
         "type": "package",
         "dependencies": {
-          "AltV.Net.CApi": "13.0.19"
+          "AltV.Net.CApi": "14.0.1"
         },
         "compile": {
           "lib/net6.0/AltV.Net.Shared.dll": {}
@@ -39,42 +39,42 @@
     }
   },
   "libraries": {
-    "AltV.Net.CApi/13.0.19": {
-      "sha512": "zt95CrjlA3WuX2+YB+77P7UVQBb3FtE+Vs3q+pvdVM40L9CzOzRPWZon9xV5J6yCQ83Yp2zTGB8I6SHAFrAfqg==",
+    "AltV.Net.CApi/14.0.1": {
+      "sha512": "ewb73wVC1BFn+A58cq1i1ksXSOnxj3oFD0/FM/+Ba8AHW1IugceJV1DA9/K4V74xB7k//T3vIiLTDeapTH85pw==",
       "type": "package",
-      "path": "altv.net.capi/13.0.19",
+      "path": "altv.net.capi/14.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "altv.net.capi.13.0.19.nupkg.sha512",
+        "altv.net.capi.14.0.1.nupkg.sha512",
         "altv.net.capi.nuspec",
         "icon.png",
         "lib/net6.0/AltV.Net.CApi.dll",
         "license.txt"
       ]
     },
-    "AltV.Net.Client/13.0.19": {
-      "sha512": "d1AsJKzP2BjjOlaix+dN0DUH/ONK4/3bD/fZw7+bJwMKRDl8IQpzLaLzlat+1sBE499BWRAUsr6WJIiKPbClqA==",
+    "AltV.Net.Client/14.0.1": {
+      "sha512": "YWQxf+fED8nrHlmbv3JWbsfTRQwRHYSxeBjCiqJ5lDB1Mwx5bIVBylGXuBClwkeLFrgn/M3UHEN3DQ+v2KGiqg==",
       "type": "package",
-      "path": "altv.net.client/13.0.19",
+      "path": "altv.net.client/14.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "altv.net.client.13.0.19.nupkg.sha512",
+        "altv.net.client.14.0.1.nupkg.sha512",
         "altv.net.client.nuspec",
         "icon.png",
         "lib/net6.0/AltV.Net.Client.dll",
         "license.txt"
       ]
     },
-    "AltV.Net.Shared/13.0.19": {
-      "sha512": "H3iXroTvmPvO23CwLjH9C7eqTzQM/TJCgQ1O8bkyEWJLbio6mik/d44ZxXxIx6W8AY8CbuzY9JmujrHFAY9b0w==",
+    "AltV.Net.Shared/14.0.1": {
+      "sha512": "ChuQj+itiYytkb5dl6fqmC9Bvgizo2pdV9ydEuLMEAXTKYaQM6jjgaZGI5PhY7pfCh4jqupCyHB1wJG9qyj/9Q==",
       "type": "package",
-      "path": "altv.net.shared/13.0.19",
+      "path": "altv.net.shared/14.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "altv.net.shared.13.0.19.nupkg.sha512",
+        "altv.net.shared.14.0.1.nupkg.sha512",
         "altv.net.shared.nuspec",
         "icon.png",
         "lib/net6.0/AltV.Net.Shared.dll",
@@ -84,7 +84,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "AltV.Net.Client >= 13.0.19"
+      "AltV.Net.Client >= 14.0.1"
     ]
   },
   "packageFolders": {
@@ -133,7 +133,7 @@
         "dependencies": {
           "AltV.Net.Client": {
             "target": "Package",
-            "version": "[13.0.19, )"
+            "version": "[14.0.1, )"
           }
         },
         "imports": [
@@ -152,7 +152,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -18,6 +18,15 @@ namespace ExampleProject
             {
                 KeyUpEvent(key);
             };
+
+            Alt.OnPlayerWeaponChange += (oldweapon, newweapon) =>
+            {
+                Alt.Log(oldweapon.ToString());
+                Alt.Log(newweapon.ToString());
+                Alt.Log(Alt.LocalPlayer.CurrentWeapon.ToString());
+                var wdata = Alt.LocalPlayer.GetWeaponData();
+                wdata.Damage = 1.5f;
+            };
         }
 
         public override void OnStop()
