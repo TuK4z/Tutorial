@@ -1,6 +1,4 @@
-﻿using System;
-using System.Numerics;
-using AltV.Net.Client;
+﻿using AltV.Net.Client;
 using AltV.Net.Client.Elements.Data;
 using Client;
 
