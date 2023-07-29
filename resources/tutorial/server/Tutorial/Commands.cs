@@ -62,7 +62,7 @@ namespace Tutorial
         [Command("rw")]
         public void rw(IPlayer player)
         {
-            player.RemoveAllWeapons();
+            player.RemoveAllWeapons(true);
         }
     }
 }

@@ -8,16 +8,16 @@
     ".NETCoreApp,Version=v6.0": {
       "Tutorial/1.0.0": {
         "dependencies": {
-          "AltV.Net": "14.0.1",
-          "AltV.Net.Resources.Chat.Api": "14.0.1"
+          "AltV.Net": "15.0.107-dev",
+          "AltV.Net.Resources.Chat.Api": "15.0.107-dev"
         },
         "runtime": {
           "Tutorial.dll": {}
         }
       },
-      "AltV.Net/14.0.1": {
+      "AltV.Net/15.0.107-dev": {
         "dependencies": {
-          "AltV.Net.Shared": "14.0.1"
+          "AltV.Net.Shared": "15.0.107-dev"
         },
         "runtime": {
           "lib/net6.0/AltV.Net.dll": {
@@ -26,7 +26,7 @@
           }
         }
       },
-      "AltV.Net.CApi/14.0.1": {
+      "AltV.Net.CApi/15.0.107-dev": {
         "runtime": {
           "lib/net6.0/AltV.Net.CApi.dll": {
             "assemblyVersion": "1.0.0.0",
@@ -34,9 +34,9 @@
           }
         }
       },
-      "AltV.Net.Resources.Chat.Api/14.0.1": {
+      "AltV.Net.Resources.Chat.Api/15.0.107-dev": {
         "dependencies": {
-          "AltV.Net": "14.0.1"
+          "AltV.Net": "15.0.107-dev"
         },
         "runtime": {
           "lib/net6.0/AltV.Net.Resources.Chat.Api.dll": {
@@ -45,9 +45,9 @@
           }
         }
       },
-      "AltV.Net.Shared/14.0.1": {
+      "AltV.Net.Shared/15.0.107-dev": {
         "dependencies": {
-          "AltV.Net.CApi": "14.0.1"
+          "AltV.Net.CApi": "15.0.107-dev"
         },
         "runtime": {
           "lib/net6.0/AltV.Net.Shared.dll": {
@@ -64,33 +64,33 @@
       "serviceable": false,
       "sha512": ""
     },
-    "AltV.Net/14.0.1": {
+    "AltV.Net/15.0.107-dev": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-vbiMEd5BR4VFiZEI9a8vZG6Qe0TOYdrHp5yf6y0bfHEzIM1NOUo5+6Ct6QeEGd0fVjpmXZoQhnq7N2Xn3qHkMA==",
-      "path": "altv.net/14.0.1",
-      "hashPath": "altv.net.14.0.1.nupkg.sha512"
+      "sha512": "sha512-R+EbDCjxJHeut/rGicRsOCZOIK4q5lQSA9W8RFXkGYMtulyJaBkWKjRLHDqvLl4YwPB5IR2RnPLf+bapn+Mlew==",
+      "path": "altv.net/15.0.107-dev",
+      "hashPath": "altv.net.15.0.107-dev.nupkg.sha512"
     },
-    "AltV.Net.CApi/14.0.1": {
+    "AltV.Net.CApi/15.0.107-dev": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ewb73wVC1BFn+A58cq1i1ksXSOnxj3oFD0/FM/+Ba8AHW1IugceJV1DA9/K4V74xB7k//T3vIiLTDeapTH85pw==",
-      "path": "altv.net.capi/14.0.1",
-      "hashPath": "altv.net.capi.14.0.1.nupkg.sha512"
+      "sha512": "sha512-8QaMbzF4bz9g5sWTbVA+7f3wO+k41VFQ5lPgMMPIp9K/UrCthTOH4/n97UoLNS8zb9ZlFw3JU83vPkl8+xnfkQ==",
+      "path": "altv.net.capi/15.0.107-dev",
+      "hashPath": "altv.net.capi.15.0.107-dev.nupkg.sha512"
     },
-    "AltV.Net.Resources.Chat.Api/14.0.1": {
+    "AltV.Net.Resources.Chat.Api/15.0.107-dev": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-k+R3EBErT0ZH76JWWPUvqpCZfYgJezKb8f8xtFVBf70tU03khYLEx+/OLh4R1wuiDv6bLK09+WfJAojGUBElIg==",
-      "path": "altv.net.resources.chat.api/14.0.1",
-      "hashPath": "altv.net.resources.chat.api.14.0.1.nupkg.sha512"
+      "sha512": "sha512-eXkVt21eqcP5gJIVE4ShklsJQ1sr8Qf2ojq9C4TjcDZ6r6H5wKAwdUr1e9j9yGHZUooHZrGNQ/sE1clSEONT9Q==",
+      "path": "altv.net.resources.chat.api/15.0.107-dev",
+      "hashPath": "altv.net.resources.chat.api.15.0.107-dev.nupkg.sha512"
     },
-    "AltV.Net.Shared/14.0.1": {
+    "AltV.Net.Shared/15.0.107-dev": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ChuQj+itiYytkb5dl6fqmC9Bvgizo2pdV9ydEuLMEAXTKYaQM6jjgaZGI5PhY7pfCh4jqupCyHB1wJG9qyj/9Q==",
-      "path": "altv.net.shared/14.0.1",
-      "hashPath": "altv.net.shared.14.0.1.nupkg.sha512"
+      "sha512": "sha512-YCrhja9lX6sFoEwnXauVciLNbuUQxuyxaDqBy3/slRIfJv2/S1DRAwOjIv4qs4Y9tAYczC6pQSFTQZYUkRyVzQ==",
+      "path": "altv.net.shared/15.0.107-dev",
+      "hashPath": "altv.net.shared.15.0.107-dev.nupkg.sha512"
     }
   }
 }
