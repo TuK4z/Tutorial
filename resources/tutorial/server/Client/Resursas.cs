@@ -33,8 +33,8 @@ namespace ExampleProject
 
             rmlDocument = Alt.CreateRmlDocument("/client/RmlWeb/index.rml");
             rmlElement = rmlDocument.QuerySelector("#container");
-            rmlElement.On("click", Click);
-            rmlDocument.On("click", Click);
+            //rmlElement.On("click", Click);
+            //rmlDocument.On("click", Click);
         }
 
         public override void OnStop()

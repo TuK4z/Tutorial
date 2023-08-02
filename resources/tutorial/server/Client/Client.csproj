@@ -10,7 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AltV.Net.Client" Version="15.0.107-dev" />
+    <PackageReference Include="AltV.Net.Client" Version="15.0.133-dev" />
   </ItemGroup>
 
 </Project>

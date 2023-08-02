@@ -22,7 +22,9 @@ namespace Client
         
         public static IWebView WebViewObj
         {
+#pragma warning disable CS8603 // Possible null reference return.
             get { return _webView; }
+#pragma warning restore CS8603 // Possible null reference return.
             set { _webView = value; }
         }
     }
