@@ -31,11 +31,7 @@ namespace ExampleProject
             Console.WriteLine("Client Started");
             Alt.OnServer("Web:Create", Web.CreateWebView);
 
-
             IlandTick = Alt.EveryTick(IlandTickFunc);
-
-
-
 
             Alt.OnKeyUp += (key) =>
             {

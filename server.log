@@ -1,24 +1,24 @@
-[12:38:29] alt:V Server 15.0-dev576 (dev)
-[12:38:29] Starting Tutorial on 0.0.0.0:7788
-[12:38:29] Loading resource chat
-[12:38:29] Loaded resource chat
-[12:38:29] Loading resource tutorial
-[12:38:38] Loaded resource tutorial
-[12:38:38] Loading resource m5e34
-[12:38:38] Added vehicle model: m5e34 | Type: VEHICLE_TYPE_CAR | Extras: 0 | Default extras: 0
-[12:38:38] Loaded resource m5e34
-[12:38:38] Loading resource baznycia
-[12:38:38] Loaded resource baznycia
-[12:38:38] Required server permissions:
-[12:38:38] Optional server permissions:
-[12:38:38] Starting HTTP server on 0.0.0.0:7788
-[12:38:38] Main thread started (ThreadId: 17680)
-[12:38:38] SyncReceive thread started (ThreadId: 26696)
-[12:38:38] EntityStreamer thread started (ThreadId: 8356)
-[12:38:38] Console thread started (ThreadId: 22236)
-[12:38:38] SyncSend thread started (ThreadId: 33588)
-[12:38:38] Network thread started (ThreadId: 14192)
-[12:38:38][Warning] Server started in debug mode
-[12:39:18] Stopping resource chat
-[12:39:18] Stopped resource chat
-[12:39:18] Stopping resource tutorial
+[12:58:47] alt:V Server 15.0-dev576 (dev)
+[12:58:47] Starting Tutorial on 0.0.0.0:7788
+[12:58:47] Loading resource chat
+[12:58:47] Loaded resource chat
+[12:58:47] Loading resource tutorial
+[12:58:56] Loaded resource tutorial
+[12:58:56] Loading resource m5e34
+[12:58:56] Added vehicle model: m5e34 | Type: VEHICLE_TYPE_CAR | Extras: 0 | Default extras: 0
+[12:58:56] Loaded resource m5e34
+[12:58:56] Loading resource baznycia
+[12:58:56] Loaded resource baznycia
+[12:58:56] Required server permissions:
+[12:58:56] Optional server permissions:
+[12:58:56] Starting HTTP server on 0.0.0.0:7788
+[12:58:56] Main thread started (ThreadId: 35424)
+[12:58:56] EntityStreamer thread started (ThreadId: 8516)
+[12:58:56] SyncSend thread started (ThreadId: 4400)
+[12:58:56] SyncReceive thread started (ThreadId: 19680)
+[12:58:56] Console thread started (ThreadId: 32168)
+[12:58:56] Network thread started (ThreadId: 14228)
+[12:58:56][Warning] Server started in debug mode
+[12:58:59] Stopping resource chat
+[12:58:59] Stopped resource chat
+[12:58:59] Stopping resource tutorial
