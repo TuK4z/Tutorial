@@ -1,38 +1,24 @@
-[15:42:37] alt:V Server 15.0-dev462 (dev)
-[15:42:37] Starting Tutorial on 127.0.0.1:7788
-[15:42:38] Loading resource chat
-[15:42:38] Loaded resource chat
-[15:42:38] Loading resource tutorial
-[15:42:47] Loaded resource tutorial
-[15:42:47] Loading resource m5e34
-[15:42:47] Added vehicle model: m5e34 | Type: VEHICLE_TYPE_CAR | Extras: 0 | Default extras: 0
-[15:42:47] Loaded resource m5e34
-[15:42:47] Loading resource baznycia
-[15:42:47] Loaded resource baznycia
-[15:42:47] Required server permissions:
-[15:42:47] Optional server permissions:
-[15:42:47] Starting HTTP server on 127.0.0.1:7788
-[15:42:47] Main thread started (ThreadId: 22836)
-[15:42:47] EntityStreamer thread started (ThreadId: 9420)
-[15:42:47] SyncSend thread started (ThreadId: 35904)
-[15:42:47] SyncSend thread started (ThreadId: 18680)
-[15:42:47] SyncSend thread started (ThreadId: 30800)
-[15:42:47] SyncSend thread started (ThreadId: 20264)
-[15:42:47] SyncSend thread started (ThreadId: 36472)
-[15:42:47] SyncSend thread started (ThreadId: 31104)
-[15:42:47] SyncSend thread started (ThreadId: 21472)
-[15:42:47] SyncSend thread started (ThreadId: 32704)
-[15:42:47] SyncReceive thread started (ThreadId: 11492)
-[15:42:47] SyncReceive thread started (ThreadId: 32040)
-[15:42:47] SyncReceive thread started (ThreadId: 15804)
-[15:42:47] SyncReceive thread started (ThreadId: 33272)
-[15:42:47] Network thread started (ThreadId: 31368)
-[15:42:47] SyncReceive thread started (ThreadId: 10552)
-[15:42:47] SyncReceive thread started (ThreadId: 33624)
-[15:42:47] Console thread started (ThreadId: 9224)
-[15:42:47] SyncReceive thread started (ThreadId: 34072)
-[15:42:47] SyncReceive thread started (ThreadId: 20004)
-[15:42:47][Warning] Server started in debug mode
-[15:42:52] Stopping resource chat
-[15:42:52] Stopped resource chat
-[15:42:52] Stopping resource tutorial
+[12:38:29] alt:V Server 15.0-dev576 (dev)
+[12:38:29] Starting Tutorial on 0.0.0.0:7788
+[12:38:29] Loading resource chat
+[12:38:29] Loaded resource chat
+[12:38:29] Loading resource tutorial
+[12:38:38] Loaded resource tutorial
+[12:38:38] Loading resource m5e34
+[12:38:38] Added vehicle model: m5e34 | Type: VEHICLE_TYPE_CAR | Extras: 0 | Default extras: 0
+[12:38:38] Loaded resource m5e34
+[12:38:38] Loading resource baznycia
+[12:38:38] Loaded resource baznycia
+[12:38:38] Required server permissions:
+[12:38:38] Optional server permissions:
+[12:38:38] Starting HTTP server on 0.0.0.0:7788
+[12:38:38] Main thread started (ThreadId: 17680)
+[12:38:38] SyncReceive thread started (ThreadId: 26696)
+[12:38:38] EntityStreamer thread started (ThreadId: 8356)
+[12:38:38] Console thread started (ThreadId: 22236)
+[12:38:38] SyncSend thread started (ThreadId: 33588)
+[12:38:38] Network thread started (ThreadId: 14192)
+[12:38:38][Warning] Server started in debug mode
+[12:39:18] Stopping resource chat
+[12:39:18] Stopped resource chat
+[12:39:18] Stopping resource tutorial

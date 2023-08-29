@@ -5,11 +5,25 @@ using System.Text;
 using System.Threading.Tasks;
 using AltV.Net.Elements.Entities;
 using AltV.Net.Data;
+using System.Numerics;
 
 namespace Tutorial
 {
     internal class Commands : IScript
     {
+        [Command("tpsala")]
+        public static void tpsala(IPlayer player)
+        {
+            player.Position = new Vector3(4890.61f, -5736.18f, 25.80f);
+        }
+        [Command("testblip")]
+        public static void testcrash(IPlayer player)
+        {
+            IBlip blips = Alt.CreateBlip(true, BlipType.Destination, player.Position, Array.Empty<IPlayer>());
+            blips.Sprite = 490;
+            blips.Color = 0;
+        }
+
         [Command("oras")]
         public static void SetOras(IPlayer player, int oras)
         {

@@ -12,10 +12,30 @@ namespace ExampleProject
     {
         private static IRmlDocument? rmlDocument;
         private static IRmlElement? rmlElement;
+
+        public static Vector3 IslandCenter = new Vector3(4840.571f, -5174.425f, 2.0f);
+        public static bool NearIsland = false;
+        private static uint _ilandTick = 0;
+        public static uint IlandTick
+        {
+            get { return _ilandTick; }
+            set { _ilandTick = value; }
+        }
+        public static void StartIsland()
+        {
+            IlandTick = Alt.EveryTick(IlandTickFunc);
+        }
+
         public override void OnStart()
         {
             Console.WriteLine("Client Started");
             Alt.OnServer("Web:Create", Web.CreateWebView);
+
+
+            IlandTick = Alt.EveryTick(IlandTickFunc);
+
+
+
 
             Alt.OnKeyUp += (key) =>
             {
@@ -40,6 +60,36 @@ namespace ExampleProject
         public override void OnStop()
         {
             Console.WriteLine("Client Stopped");
+        }
+
+        public static void IlandTickFunc()
+        {
+            var distance = Alt.LocalPlayer.Position.Distance(IslandCenter);
+
+            if (NearIsland)
+            {
+                Alt.Natives.SetRadarAsExteriorThisFrame();
+                Alt.Natives.SetRadarAsInteriorThisFrame(Alt.Hash("h4_fake_islandx"), 4700.0f, -5145.0f, 0, 0);
+
+                if (distance >= 3000)
+                {
+                    NearIsland = false;
+                    Alt.Natives.SetIslandEnabled("HeistIsland", false);
+                    Alt.Natives.SetScenarioGroupEnabled("Heist_Island_Peds", false);
+                    Alt.Natives.SetAudioFlag("PlayerOnDLCHeist4Island", false);
+                    Alt.Natives.SetAmbientZoneListStatePersistent("AZL_DLC_Hei4_Island_Zones", false, false);
+                    Alt.Natives.SetAmbientZoneListStatePersistent("AZL_DLC_Hei4_Island_Disabled_Zones", false, false);
+                }
+            }
+            else if (distance < 2000 && !NearIsland)
+            {
+                NearIsland = true;
+                Alt.Natives.SetIslandEnabled("HeistIsland", true);
+                Alt.Natives.SetScenarioGroupEnabled("Heist_Island_Peds", true);
+                Alt.Natives.SetAudioFlag("PlayerOnDLCHeist4Island", true);
+                Alt.Natives.SetAmbientZoneListStatePersistent("AZL_DLC_Hei4_Island_Zones", true, true);
+                Alt.Natives.SetAmbientZoneListStatePersistent("AZL_DLC_Hei4_Island_Disabled_Zones", false, true);
+            }
         }
 
         public static void KeyUpEvent(Key key)
