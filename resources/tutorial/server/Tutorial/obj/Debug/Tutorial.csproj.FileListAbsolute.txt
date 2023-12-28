@@ -47,3 +47,4 @@ C:\Egamesy\Tutorial\resources\tutorial\server\Tutorial\obj\Debug\Tutorial.dll
 C:\Egamesy\Tutorial\resources\tutorial\server\Tutorial\obj\Debug\refint\Tutorial.dll
 C:\Egamesy\Tutorial\resources\tutorial\server\Tutorial\obj\Debug\Tutorial.pdb
 C:\Egamesy\Tutorial\resources\tutorial\server\Tutorial\obj\Debug\ref\Tutorial.dll
+C:\Egamesy\Tutorial\resources\tutorial\server\Tutorial\obj\Debug\Tutorial.sourcelink.json

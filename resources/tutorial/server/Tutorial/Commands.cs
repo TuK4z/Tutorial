@@ -78,5 +78,14 @@ namespace Tutorial
         {
             player.RemoveAllWeapons(true);
         }
+
+        [Command("setmod")]
+        public static void setmod(IPlayer player)
+        {
+            Alt.Log("Mod has been set");
+            player.Vehicle.SetMod(0, 1);
+            player.Vehicle.SetMod(1, 1);
+            player.Vehicle.SetMod(2, 1);
+        }
     }
 }

@@ -10,7 +10,13 @@ namespace ExampleProject
 {
     internal class ExampleResource : Resource
     {
-        private static IRmlDocument? rmlDocument;
+        private static IRmlDocument? _rmlDocument;
+        public static IRmlDocument? RmlDocument
+        {
+            get { return _rmlDocument; }
+            set { _rmlDocument = value; }
+        }
+
         private static IRmlElement? rmlElement;
 
         public static Vector3 IslandCenter = new Vector3(4840.571f, -5174.425f, 2.0f);
@@ -47,8 +53,8 @@ namespace ExampleProject
                 wdata.Damage = 1.5f;
             };
 
-            rmlDocument = Alt.CreateRmlDocument("/client/RmlWeb/index.rml");
-            rmlElement = rmlDocument.QuerySelector("#container");
+            RmlDocument = Alt.CreateRmlDocument("/client/RmlWeb/index.rml");
+            rmlElement = RmlDocument.QuerySelector("#container");
             //rmlElement.On("click", Click);
             //rmlDocument.On("click", Click);
         }
@@ -93,7 +99,18 @@ namespace ExampleProject
             switch ((int)key)
             {
                 case 118: // F7
-                    Vector2 screen = Alt.WorldToScreen(Alt.LocalPlayer.Position.X, Alt.LocalPlayer.Position.Y, Alt.LocalPlayer.Position.Z + 1);
+                    if(RmlDocument != null)
+                    {
+                        Alt.Log("Not Null 1");
+                        IRmlElement newButton = RmlDocument.CreateElement("button");
+                        if (newButton != null)
+                        {
+                            Alt.Log("Not Null 2");
+                            newButton.Click();
+                        }
+                    }
+                    
+                    /*Vector2 screen = Alt.WorldToScreen(Alt.LocalPlayer.Position.X, Alt.LocalPlayer.Position.Y, Alt.LocalPlayer.Position.Z + 1);
 
                     if (rmlDocument == null) return;
                     rmlElement = rmlDocument.CreateElement("button");
@@ -103,7 +120,7 @@ namespace ExampleProject
                     rmlElement.SetProperty("top", $"{screen.Y}px");
 
                     rmlElement.InnerRml = "Informacija";
-                    rmlDocument.AppendChild(rmlElement);
+                    rmlDocument.AppendChild(rmlElement);*/
                     break;
             }
         }

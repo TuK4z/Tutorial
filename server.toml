@@ -8,5 +8,8 @@ modules = [ 'js-module', 'csharp-module' ]
 name = 'Tutorial'
 players = 128
 port = 7788
-resources = [ 'chat', 'tutorial', 'imports/m5e34', 'map/baznycia' ]
+resources = [ 'chat', 'tutorial', 'imports/m5e34','imports/bmw_m4', 'map/baznycia' ]
 website = 'example.com'
+
+[csharp-module]
+disableDependencyDownload = true

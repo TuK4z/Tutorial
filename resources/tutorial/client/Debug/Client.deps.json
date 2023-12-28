@@ -8,13 +8,13 @@
     ".NETCoreApp,Version=v6.0": {
       "Client/1.0.0": {
         "dependencies": {
-          "AltV.Net.Client": "15.0.147-dev"
+          "AltV.Net.Client": "15.0.179-dev"
         },
         "runtime": {
           "Client.dll": {}
         }
       },
-      "AltV.Net.CApi/15.0.147-dev": {
+      "AltV.Net.CApi/15.0.179-dev": {
         "runtime": {
           "lib/net6.0/AltV.Net.CApi.dll": {
             "assemblyVersion": "1.0.0.0",
@@ -22,10 +22,10 @@
           }
         }
       },
-      "AltV.Net.Client/15.0.147-dev": {
+      "AltV.Net.Client/15.0.179-dev": {
         "dependencies": {
-          "AltV.Net.CApi": "15.0.147-dev",
-          "AltV.Net.Shared": "15.0.147-dev"
+          "AltV.Net.CApi": "15.0.179-dev",
+          "AltV.Net.Shared": "15.0.179-dev"
         },
         "runtime": {
           "lib/net6.0/AltV.Net.Client.dll": {
@@ -34,9 +34,9 @@
           }
         }
       },
-      "AltV.Net.Shared/15.0.147-dev": {
+      "AltV.Net.Shared/15.0.179-dev": {
         "dependencies": {
-          "AltV.Net.CApi": "15.0.147-dev"
+          "AltV.Net.CApi": "15.0.179-dev"
         },
         "runtime": {
           "lib/net6.0/AltV.Net.Shared.dll": {
@@ -53,26 +53,26 @@
       "serviceable": false,
       "sha512": ""
     },
-    "AltV.Net.CApi/15.0.147-dev": {
+    "AltV.Net.CApi/15.0.179-dev": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-EBbXMtJ3hP1ffaQrxOalXdK67NfUP39Wrxp5UCpxIGVjGUtP3+dJMhMk5OiEuxx1xgEYGEnmtioLAWMv90llZA==",
-      "path": "altv.net.capi/15.0.147-dev",
-      "hashPath": "altv.net.capi.15.0.147-dev.nupkg.sha512"
+      "sha512": "sha512-WvX/bKKiXBwHh3PcPz0efJgHpajxClWYOUtA4avqA7nabezu2Z/9mkrIaYTLLqT9jM1jSc1FmBk03KeKQGpUIw==",
+      "path": "altv.net.capi/15.0.179-dev",
+      "hashPath": "altv.net.capi.15.0.179-dev.nupkg.sha512"
     },
-    "AltV.Net.Client/15.0.147-dev": {
+    "AltV.Net.Client/15.0.179-dev": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-0Qe83AH7o4+HEcWRbqMkm44D9wU2hmTjXN3CoLRUbDMZS80LiVP/POHkHV96BZH6GQzwPMcos0bz5+JhSjI/ow==",
-      "path": "altv.net.client/15.0.147-dev",
-      "hashPath": "altv.net.client.15.0.147-dev.nupkg.sha512"
+      "sha512": "sha512-+st8t1LvnSy8HqIHe12rq8vw9yFJUKBRaOklLAbELMapVoFtg03ihwlY0L3I7SlHXT2GntW7Bpr5nEvKbBM0UA==",
+      "path": "altv.net.client/15.0.179-dev",
+      "hashPath": "altv.net.client.15.0.179-dev.nupkg.sha512"
     },
-    "AltV.Net.Shared/15.0.147-dev": {
+    "AltV.Net.Shared/15.0.179-dev": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-o7uwYLPd4erhgR04hBr9zt7H50/Qh+H7Ih6rsWErfmvuAH9oG8Tj8wBhG26FUPDcqSBpFRBynnj5t/WIwHrCXw==",
-      "path": "altv.net.shared/15.0.147-dev",
-      "hashPath": "altv.net.shared.15.0.147-dev.nupkg.sha512"
+      "sha512": "sha512-oy+JxP8zjWhYlsMhYwCGflqRpM83Vwi/UWullDsase/0+yqWjlSarVjh7KtOa3QoKQkGqS4CzVviPryW3DOPpw==",
+      "path": "altv.net.shared/15.0.179-dev",
+      "hashPath": "altv.net.shared.15.0.179-dev.nupkg.sha512"
     }
   }
 }
