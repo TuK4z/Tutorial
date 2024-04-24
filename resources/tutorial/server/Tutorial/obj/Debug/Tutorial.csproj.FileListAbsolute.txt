@@ -42,9 +42,9 @@ C:\Egamesy\Tutorial\resources\tutorial\server\Tutorial\obj\Debug\Tutorial.Genera
 C:\Egamesy\Tutorial\resources\tutorial\server\Tutorial\obj\Debug\Tutorial.AssemblyInfoInputs.cache
 C:\Egamesy\Tutorial\resources\tutorial\server\Tutorial\obj\Debug\Tutorial.AssemblyInfo.cs
 C:\Egamesy\Tutorial\resources\tutorial\server\Tutorial\obj\Debug\Tutorial.csproj.CoreCompileInputs.cache
-C:\Egamesy\Tutorial\resources\tutorial\server\Tutorial\obj\Debug\Tutorial.csproj.CopyComplete
 C:\Egamesy\Tutorial\resources\tutorial\server\Tutorial\obj\Debug\Tutorial.dll
 C:\Egamesy\Tutorial\resources\tutorial\server\Tutorial\obj\Debug\refint\Tutorial.dll
 C:\Egamesy\Tutorial\resources\tutorial\server\Tutorial\obj\Debug\Tutorial.pdb
 C:\Egamesy\Tutorial\resources\tutorial\server\Tutorial\obj\Debug\ref\Tutorial.dll
 C:\Egamesy\Tutorial\resources\tutorial\server\Tutorial\obj\Debug\Tutorial.sourcelink.json
+C:\Egamesy\Tutorial\resources\tutorial\server\Tutorial\obj\Debug\Tutorial.csproj.Up2Date

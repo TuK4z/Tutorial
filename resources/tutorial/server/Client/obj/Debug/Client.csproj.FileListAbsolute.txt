@@ -22,6 +22,6 @@ C:\Egamesy\Tutorial\resources\tutorial\server\Client\obj\Debug\Client.pdb
 C:\Egamesy\Tutorial\resources\tutorial\client\Debug\Client.deps.json
 C:\Egamesy\Tutorial\resources\tutorial\client\Debug\Client.dll
 C:\Egamesy\Tutorial\resources\tutorial\client\Debug\Client.pdb
-C:\Egamesy\Tutorial\resources\tutorial\server\Client\obj\Debug\Client.csproj.CopyComplete
 C:\Egamesy\Tutorial\resources\tutorial\server\Client\obj\Debug\ref\Client.dll
 C:\Egamesy\Tutorial\resources\tutorial\server\Client\obj\Debug\Client.sourcelink.json
+C:\Egamesy\Tutorial\resources\tutorial\server\Client\obj\Debug\Client.csproj.Up2Date

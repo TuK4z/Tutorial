@@ -2,10 +2,10 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "AltV.Net/15.0.179-dev": {
+      "AltV.Net/16.0.15": {
         "type": "package",
         "dependencies": {
-          "AltV.Net.Shared": "15.0.179-dev"
+          "AltV.Net.Shared": "16.0.15"
         },
         "compile": {
           "lib/net6.0/AltV.Net.dll": {}
@@ -14,7 +14,7 @@
           "lib/net6.0/AltV.Net.dll": {}
         }
       },
-      "AltV.Net.CApi/15.0.179-dev": {
+      "AltV.Net.CApi/16.0.15": {
         "type": "package",
         "compile": {
           "lib/net6.0/AltV.Net.CApi.dll": {}
@@ -23,10 +23,10 @@
           "lib/net6.0/AltV.Net.CApi.dll": {}
         }
       },
-      "AltV.Net.Resources.Chat.Api/15.0.179-dev": {
+      "AltV.Net.Resources.Chat.Api/16.0.15": {
         "type": "package",
         "dependencies": {
-          "AltV.Net": "15.0.179-dev"
+          "AltV.Net": "16.0.15"
         },
         "compile": {
           "lib/net6.0/AltV.Net.Resources.Chat.Api.dll": {}
@@ -35,10 +35,10 @@
           "lib/net6.0/AltV.Net.Resources.Chat.Api.dll": {}
         }
       },
-      "AltV.Net.Shared/15.0.179-dev": {
+      "AltV.Net.Shared/16.0.15": {
         "type": "package",
         "dependencies": {
-          "AltV.Net.CApi": "15.0.179-dev"
+          "AltV.Net.CApi": "16.0.15"
         },
         "compile": {
           "lib/net6.0/AltV.Net.Shared.dll": {}
@@ -50,56 +50,56 @@
     }
   },
   "libraries": {
-    "AltV.Net/15.0.179-dev": {
-      "sha512": "pDz+NTU9l/CcnrAmU9rgkUR5CS+VdVwxSXH7gTqLsQ5pmYlXKMv9q5LrBykR+7l4QSs0qrbpBSdxEr3mQzLZtg==",
+    "AltV.Net/16.0.15": {
+      "sha512": "D1dlhHvPS7hnQXwzEGVYvhpkN8Iib89Xozp7RQon9oGXuGe91mSn2xXxXyTmx0+/YQww8frlEjt+FCHUMIbUAA==",
       "type": "package",
-      "path": "altv.net/15.0.179-dev",
+      "path": "altv.net/16.0.15",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "altv.net.15.0.179-dev.nupkg.sha512",
+        "altv.net.16.0.15.nupkg.sha512",
         "altv.net.nuspec",
         "icon.png",
         "lib/net6.0/AltV.Net.dll",
         "license.txt"
       ]
     },
-    "AltV.Net.CApi/15.0.179-dev": {
-      "sha512": "WvX/bKKiXBwHh3PcPz0efJgHpajxClWYOUtA4avqA7nabezu2Z/9mkrIaYTLLqT9jM1jSc1FmBk03KeKQGpUIw==",
+    "AltV.Net.CApi/16.0.15": {
+      "sha512": "G4MAuPBFWlhr31bRbloqwrfAa/tBkn+iWPrT5iqC1X0hgyP2ajR13GIqrQOGfQCnDNJPOWUTmXpp9eestiLE/w==",
       "type": "package",
-      "path": "altv.net.capi/15.0.179-dev",
+      "path": "altv.net.capi/16.0.15",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "altv.net.capi.15.0.179-dev.nupkg.sha512",
+        "altv.net.capi.16.0.15.nupkg.sha512",
         "altv.net.capi.nuspec",
         "icon.png",
         "lib/net6.0/AltV.Net.CApi.dll",
         "license.txt"
       ]
     },
-    "AltV.Net.Resources.Chat.Api/15.0.179-dev": {
-      "sha512": "58rNqmsuS0wShAiArDmvOn3410/uKh7Gspbk1qqwWixyfm8X5NJNS9KmDRsLH5NzWPtOLzLoPAif16/v0O6dSw==",
+    "AltV.Net.Resources.Chat.Api/16.0.15": {
+      "sha512": "0pRpezg5nPKNQirK1hA3F5r+tMs0EvntfV/xynuvX937p1f3OClEpI3/ILPUkYNDi46FzfK7JnCHQHp1mx4qIQ==",
       "type": "package",
-      "path": "altv.net.resources.chat.api/15.0.179-dev",
+      "path": "altv.net.resources.chat.api/16.0.15",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "altv.net.resources.chat.api.15.0.179-dev.nupkg.sha512",
+        "altv.net.resources.chat.api.16.0.15.nupkg.sha512",
         "altv.net.resources.chat.api.nuspec",
         "icon.png",
         "lib/net6.0/AltV.Net.Resources.Chat.Api.dll",
         "license.txt"
       ]
     },
-    "AltV.Net.Shared/15.0.179-dev": {
-      "sha512": "oy+JxP8zjWhYlsMhYwCGflqRpM83Vwi/UWullDsase/0+yqWjlSarVjh7KtOa3QoKQkGqS4CzVviPryW3DOPpw==",
+    "AltV.Net.Shared/16.0.15": {
+      "sha512": "OtYIDuVYpdxksNHhPhboVhGtJOUktNoeZnPPs6zjxrnbbz9VjIrFHRgo8da30urb86jgRlpi5mBJ4YjPv7eSwA==",
       "type": "package",
-      "path": "altv.net.shared/15.0.179-dev",
+      "path": "altv.net.shared/16.0.15",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "altv.net.shared.15.0.179-dev.nupkg.sha512",
+        "altv.net.shared.16.0.15.nupkg.sha512",
         "altv.net.shared.nuspec",
         "icon.png",
         "lib/net6.0/AltV.Net.Shared.dll",
@@ -109,8 +109,8 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "AltV.Net >= 15.0.179-dev",
-      "AltV.Net.Resources.Chat.Api >= 15.0.179-dev"
+      "AltV.Net >= 16.0.15",
+      "AltV.Net.Resources.Chat.Api >= 16.0.15"
     ]
   },
   "packageFolders": {
@@ -151,6 +151,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -159,11 +164,11 @@
         "dependencies": {
           "AltV.Net": {
             "target": "Package",
-            "version": "[15.0.179-dev, )"
+            "version": "[16.0.15, )"
           },
           "AltV.Net.Resources.Chat.Api": {
             "target": "Package",
-            "version": "[15.0.179-dev, )"
+            "version": "[16.0.15, )"
           }
         },
         "imports": [
@@ -182,7 +187,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

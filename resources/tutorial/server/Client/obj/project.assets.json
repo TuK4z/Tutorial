@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "AltV.Net.CApi/15.0.179-dev": {
+      "AltV.Net.CApi/16.0.15": {
         "type": "package",
         "compile": {
           "lib/net6.0/AltV.Net.CApi.dll": {}
@@ -11,11 +11,11 @@
           "lib/net6.0/AltV.Net.CApi.dll": {}
         }
       },
-      "AltV.Net.Client/15.0.179-dev": {
+      "AltV.Net.Client/16.0.15": {
         "type": "package",
         "dependencies": {
-          "AltV.Net.CApi": "15.0.179-dev",
-          "AltV.Net.Shared": "15.0.179-dev"
+          "AltV.Net.CApi": "16.0.15",
+          "AltV.Net.Shared": "16.0.15"
         },
         "compile": {
           "lib/net6.0/AltV.Net.Client.dll": {}
@@ -24,10 +24,10 @@
           "lib/net6.0/AltV.Net.Client.dll": {}
         }
       },
-      "AltV.Net.Shared/15.0.179-dev": {
+      "AltV.Net.Shared/16.0.15": {
         "type": "package",
         "dependencies": {
-          "AltV.Net.CApi": "15.0.179-dev"
+          "AltV.Net.CApi": "16.0.15"
         },
         "compile": {
           "lib/net6.0/AltV.Net.Shared.dll": {}
@@ -39,42 +39,42 @@
     }
   },
   "libraries": {
-    "AltV.Net.CApi/15.0.179-dev": {
-      "sha512": "WvX/bKKiXBwHh3PcPz0efJgHpajxClWYOUtA4avqA7nabezu2Z/9mkrIaYTLLqT9jM1jSc1FmBk03KeKQGpUIw==",
+    "AltV.Net.CApi/16.0.15": {
+      "sha512": "G4MAuPBFWlhr31bRbloqwrfAa/tBkn+iWPrT5iqC1X0hgyP2ajR13GIqrQOGfQCnDNJPOWUTmXpp9eestiLE/w==",
       "type": "package",
-      "path": "altv.net.capi/15.0.179-dev",
+      "path": "altv.net.capi/16.0.15",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "altv.net.capi.15.0.179-dev.nupkg.sha512",
+        "altv.net.capi.16.0.15.nupkg.sha512",
         "altv.net.capi.nuspec",
         "icon.png",
         "lib/net6.0/AltV.Net.CApi.dll",
         "license.txt"
       ]
     },
-    "AltV.Net.Client/15.0.179-dev": {
-      "sha512": "+st8t1LvnSy8HqIHe12rq8vw9yFJUKBRaOklLAbELMapVoFtg03ihwlY0L3I7SlHXT2GntW7Bpr5nEvKbBM0UA==",
+    "AltV.Net.Client/16.0.15": {
+      "sha512": "XJsPlmPNVyLgJGoPLCpyRqzOHGx5iQDsCUXnnIJdClIILwr55c+heFl9NODPrqzgvzeuAbaLozj3XdcOh7FLdg==",
       "type": "package",
-      "path": "altv.net.client/15.0.179-dev",
+      "path": "altv.net.client/16.0.15",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "altv.net.client.15.0.179-dev.nupkg.sha512",
+        "altv.net.client.16.0.15.nupkg.sha512",
         "altv.net.client.nuspec",
         "icon.png",
         "lib/net6.0/AltV.Net.Client.dll",
         "license.txt"
       ]
     },
-    "AltV.Net.Shared/15.0.179-dev": {
-      "sha512": "oy+JxP8zjWhYlsMhYwCGflqRpM83Vwi/UWullDsase/0+yqWjlSarVjh7KtOa3QoKQkGqS4CzVviPryW3DOPpw==",
+    "AltV.Net.Shared/16.0.15": {
+      "sha512": "OtYIDuVYpdxksNHhPhboVhGtJOUktNoeZnPPs6zjxrnbbz9VjIrFHRgo8da30urb86jgRlpi5mBJ4YjPv7eSwA==",
       "type": "package",
-      "path": "altv.net.shared/15.0.179-dev",
+      "path": "altv.net.shared/16.0.15",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "altv.net.shared.15.0.179-dev.nupkg.sha512",
+        "altv.net.shared.16.0.15.nupkg.sha512",
         "altv.net.shared.nuspec",
         "icon.png",
         "lib/net6.0/AltV.Net.Shared.dll",
@@ -84,7 +84,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "AltV.Net.Client >= 15.0.179-dev"
+      "AltV.Net.Client >= 16.0.15"
     ]
   },
   "packageFolders": {
@@ -125,6 +125,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -133,7 +138,7 @@
         "dependencies": {
           "AltV.Net.Client": {
             "target": "Package",
-            "version": "[15.0.179-dev, )"
+            "version": "[16.0.15, )"
           }
         },
         "imports": [
@@ -152,7 +157,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

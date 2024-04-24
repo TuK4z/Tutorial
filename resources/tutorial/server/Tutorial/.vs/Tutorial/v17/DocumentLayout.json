@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Egamesy\\Tutorial\\resources\\tutorial\\server\\Tutorial\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1BF5791E-A4AF-4001-AEAD-D42490E48C09}|Tutorial.csproj|c:\\egamesy\\tutorial\\resources\\tutorial\\server\\tutorial\\commands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BF5791E-A4AF-4001-AEAD-D42490E48C09}|Tutorial.csproj|solutionrelative:commands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19AB045-9C41-4CE9-B6B0-A099E55C72A2}|..\\Client\\Client.csproj|c:\\egamesy\\tutorial\\resources\\tutorial\\server\\client\\resursas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19AB045-9C41-4CE9-B6B0-A099E55C72A2}|..\\Client\\Client.csproj|c:\\egamesy\\tutorial\\resources\\tutorial\\server\\client\\web.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BF5791E-A4AF-4001-AEAD-D42490E48C09}|Tutorial.csproj|c:\\egamesy\\tutorial\\resources\\tutorial\\server\\tutorial\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BF5791E-A4AF-4001-AEAD-D42490E48C09}|Tutorial.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BF5791E-A4AF-4001-AEAD-D42490E48C09}|Tutorial.csproj|c:\\egamesy\\tutorial\\resources\\tutorial\\server\\tutorial\\resursas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BF5791E-A4AF-4001-AEAD-D42490E48C09}|Tutorial.csproj|solutionrelative:resursas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Commands.cs",
+              "DocumentMoniker": "C:\\Egamesy\\Tutorial\\resources\\tutorial\\server\\Tutorial\\Commands.cs",
+              "RelativeDocumentMoniker": "Commands.cs",
+              "ToolTip": "C:\\Egamesy\\Tutorial\\resources\\tutorial\\server\\Tutorial\\Commands.cs",
+              "RelativeToolTip": "Commands.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowDIAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-03-09T09:39:07.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Web.cs",
+              "DocumentMoniker": "C:\\Egamesy\\Tutorial\\resources\\tutorial\\server\\Client\\Web.cs",
+              "RelativeDocumentMoniker": "..\\Client\\Web.cs",
+              "ToolTip": "C:\\Egamesy\\Tutorial\\resources\\tutorial\\server\\Client\\Web.cs",
+              "RelativeToolTip": "..\\Client\\Web.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAwwBEAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-03-09T09:39:07.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Resursas.cs",
+              "DocumentMoniker": "C:\\Egamesy\\Tutorial\\resources\\tutorial\\server\\Client\\Resursas.cs",
+              "RelativeDocumentMoniker": "..\\Client\\Resursas.cs",
+              "ToolTip": "C:\\Egamesy\\Tutorial\\resources\\tutorial\\server\\Client\\Resursas.cs",
+              "RelativeToolTip": "..\\Client\\Resursas.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAIwGcAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-03-09T09:39:07.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Resursas.cs",
+              "DocumentMoniker": "C:\\Egamesy\\Tutorial\\resources\\tutorial\\server\\Tutorial\\Resursas.cs",
+              "RelativeDocumentMoniker": "Resursas.cs",
+              "ToolTip": "C:\\Egamesy\\Tutorial\\resources\\tutorial\\server\\Tutorial\\Resursas.cs",
+              "RelativeToolTip": "Resursas.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-03-09T09:39:07.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Main.cs",
+              "DocumentMoniker": "C:\\Egamesy\\Tutorial\\resources\\tutorial\\server\\Tutorial\\Main.cs",
+              "RelativeDocumentMoniker": "Main.cs",
+              "ToolTip": "C:\\Egamesy\\Tutorial\\resources\\tutorial\\server\\Tutorial\\Main.cs",
+              "RelativeToolTip": "Main.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-03-09T09:39:07.482Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

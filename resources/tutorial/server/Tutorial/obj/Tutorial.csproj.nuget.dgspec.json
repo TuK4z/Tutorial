@@ -38,6 +38,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -46,11 +51,11 @@
           "dependencies": {
             "AltV.Net": {
               "target": "Package",
-              "version": "[15.0.179-dev, )"
+              "version": "[16.0.15, )"
             },
             "AltV.Net.Resources.Chat.Api": {
               "target": "Package",
-              "version": "[15.0.179-dev, )"
+              "version": "[16.0.15, )"
             }
           },
           "imports": [
@@ -69,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
