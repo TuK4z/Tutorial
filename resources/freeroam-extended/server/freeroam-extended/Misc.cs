@@ -1,11 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using AltV.Net;
 using AltV.Net.Data;
 
 namespace Freeroam_Extended
 {
     public static class Misc
     {
+        public static Random random = new Random();
         public static HashSet<uint> BlacklistedWeapons = new()
         {
             125959754, // Compact Grenade Launcher
@@ -297,21 +297,40 @@ namespace Freeroam_Extended
             new (-675.2044f, -2378.4658f, 13.087158f), 
         };
 
-        public static HashSet<Tuple<ulong,ulong>> BannedPlayers = new()
+        public static HashSet<string> BannedPlayers = new()
         {
             
         };
         
-        public static HashSet<Tuple<ulong,ulong>> Operators = new()
+        public static HashSet<string> Operators = new()
         {
             
         };
-        
-        public static bool ChatState = false;
+
+        public static HashSet<string> UniquePlayers = new()
+        {
+            
+        };
+
+        public static bool ChatState = true;
         public static int Hour = 11;
         public static uint Weather = 0;
 
         public static Position DMPos = new Position(-1216.839599609375f, -2832.514404296875f, 13.9296875f);
         public static int DMRadius = 800;
+
+        public static Position? AdminOverridedSpawnPos = null;
+
+        public static bool IsResourceLoaded(string resourceName)
+        {
+            var allResources = Alt.GetAllResources();
+            return allResources.Count(x => x.Name == resourceName) > 0;
+        }
+
+        public static int RandomInt(int min, int max)
+        {
+            int randomNumber = random.Next(min, max + 1);
+            return randomNumber;
+        }
     }
 }

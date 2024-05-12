@@ -17,7 +17,7 @@ namespace ExampleProject
             set { _rmlDocument = value; }
         }
 
-        private static IRmlElement? rmlElement;
+        //private static IRmlElement? rmlElement;
 
         public static Vector3 IslandCenter = new Vector3(4840.571f, -5174.425f, 2.0f);
         public static bool NearIsland = false;
@@ -53,8 +53,8 @@ namespace ExampleProject
                 wdata.Damage = 1.5f;
             };
 
-            RmlDocument = Alt.CreateRmlDocument("/client/RmlWeb/index.rml");
-            rmlElement = RmlDocument.QuerySelector("#container");
+            //RmlDocument = Alt.CreateRmlDocument("/client/RmlWeb/index.rml");
+            //rmlElement = RmlDocument.QuerySelector("#container");
             //rmlElement.On("click", Click);
             //rmlDocument.On("click", Click);
         }

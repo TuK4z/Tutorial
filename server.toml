@@ -1,15 +1,45 @@
 announce = false
 debug = true
-description = 'Mano tutorial serveris'
-gamemode = 'Freeroam'
-host = '0.0.0.0'
+description = 'TutorialServer'
+gamemode = 'GRP'
+host = '127.0.0.1'
 language = 'lt'
-modules = [ 'js-module', 'csharp-module' ]
-name = 'Tutorial'
-players = 128
+modules = [ 'js-module', 'csharp-module']
+name = '[DEVELOPER] TutorialServer'
+players = 125
 port = 7788
-resources = [ 'chat', 'tutorial', 'imports/m5e34','imports/bmw_m4', 'map/baznycia' ]
-website = 'example.com'
+resources = [ 
+    'chat',
+    'tutorial',
+    'imports/m5e34',
+    'imports/bmw_m4',
+    'map/baznycia' 
+]
+website = 'tutorial.com'
+tags = ['GRP']
+token = ''
+useCdn = false
+
+# The stream in distance for entities
+streamingDistance = 400
+# The migration distance for entities
+migrationDistance = 150
+sendPlayerNames = false
+spawnAfterConnect = false
+# Enable or disable syncedMetadata
+enableSyncedMetaData=true
+newSync=true
 
 [csharp-module]
 disableDependencyDownload = true
+
+[antiCheat]
+weaponSwitch = true
+
+[voice]
+#bitrate = 64000
+#externalSecret = "1414141414"
+#externalHost = "127.0.0.1"
+#externalPort = 7798
+#externalPublicHost = "0.0.0.0"
+#externalPublicPort = 7799

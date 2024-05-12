@@ -1,37 +1,42 @@
-[23:13:39] alt:V Server 16.0.154 (release)
-[23:13:39] Starting Tutorial on [::]:7788
-[23:13:40] Loading resource chat
-[23:13:40] Loaded resource chat
-[23:13:40] Loading resource tutorial
-[23:13:41] Loaded resource tutorial
-[23:13:41] Loading resource m5e34
-[23:13:41] Loaded resource m5e34
-[23:13:41] Loading resource bmw_m4
-[23:13:42] Loaded resource bmw_m4
-[23:13:42] Loading resource baznycia
-[23:13:42] Loaded resource baznycia
-[23:13:42] Required server permissions:
-[23:13:42] Optional server permissions:
-[23:13:42] Starting HTTP server on [::]:7788
-[23:13:42] Main thread started (ThreadId: 45120)
-[23:13:42] EntityStreamer thread started (ThreadId: 31212)
-[23:13:42] SyncSend thread started (ThreadId: 48296)
-[23:13:42] SyncSend thread started (ThreadId: 26544)
-[23:13:42] SyncSend thread started (ThreadId: 19836)
-[23:13:42] SyncSend thread started (ThreadId: 35336)
-[23:13:42] SyncSend thread started (ThreadId: 12952)
-[23:13:42] SyncSend thread started (ThreadId: 59136)
-[23:13:42] SyncSend thread started (ThreadId: 50304)
-[23:13:42] SyncSend thread started (ThreadId: 33832)
-[23:13:42] SyncReceive thread started (ThreadId: 23192)
-[23:13:42] SyncReceive thread started (ThreadId: 35392)
-[23:13:42] SyncReceive thread started (ThreadId: 55644)
-[23:13:42] SyncReceive thread started (ThreadId: 54432)
-[23:13:42] NetworkWorker #1 thread started (ThreadId: 46468)
-[23:13:42] Console thread started (ThreadId: 43452)
-[23:13:42][Warning] Server started in debug mode
-[23:13:44] Stopping resource chat
-[23:13:44] Stopped resource chat
-[23:13:44] Stopping resource bmw_m4
-[23:13:44] Stopped resource bmw_m4
-[23:13:44] Stopping resource tutorial
+[13:58:51] alt:V Server 16.0.155 (release)
+[13:58:51] Starting [DEVELOPER] TutorialServer on 127.0.0.1:7788
+[13:58:51][Error] Internal voice server is not supported, consider setting up an external voice server. See https://go.altv.mp/external-voice for more details
+[13:58:51] Loading resource chat
+[13:58:51] Loaded resource chat
+[13:58:51] Loading resource tutorial
+[13:58:51] Loaded resource tutorial
+[13:58:51] Loading resource m5e34
+[13:58:51] Loaded resource m5e34
+[13:58:51] Loading resource bmw_m4
+[13:58:52] Loaded resource bmw_m4
+[13:58:52] Loading resource baznycia
+[13:58:52] Loaded resource baznycia
+[13:58:52] Required server permissions:
+[13:58:52] Optional server permissions:
+[13:58:52] Starting HTTP server on 127.0.0.1:7788
+[13:58:52] Main thread started (ThreadId: 34212)
+[13:58:52] VoicePacketProcess thread started (ThreadId: 28112)
+[13:58:52] VoiceStreamer thread started (ThreadId: 13800)
+[13:58:52] EntityStreamer thread started (ThreadId: 25432)
+[13:58:52] SyncSend thread started (ThreadId: 18904)
+[13:58:52] SyncSend thread started (ThreadId: 29848)
+[13:58:52] SyncSend thread started (ThreadId: 14944)
+[13:58:52] SyncSend thread started (ThreadId: 37728)
+[13:58:52] SyncSend thread started (ThreadId: 32372)
+[13:58:52] SyncSend thread started (ThreadId: 32284)
+[13:58:52] SyncSend thread started (ThreadId: 34504)
+[13:58:52] SyncSend thread started (ThreadId: 37276)
+[13:58:52] SyncReceive thread started (ThreadId: 19008)
+[13:58:52] NetworkWorker #1 thread started (ThreadId: 13820)
+[13:58:52] SyncReceive thread started (ThreadId: 31384)
+[13:58:52] SyncReceive thread started (ThreadId: 32276)
+[13:58:52] SyncReceive thread started (ThreadId: 35288)
+[13:58:52] Console thread started (ThreadId: 18880)
+[13:58:52][Warning] Server started in debug mode
+[14:00:09] Sending accept 1 Tuk1s
+[14:00:40] [chat:cmd] Tuk1s: /q
+[14:00:46] Stopping resource chat
+[14:00:46] Stopped resource chat
+[14:00:46] Stopping resource bmw_m4
+[14:00:46] Stopped resource bmw_m4
+[14:00:46] Stopping resource tutorial
